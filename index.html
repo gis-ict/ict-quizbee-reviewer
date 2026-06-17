@@ -495,7 +495,7 @@ const SECTIONS = [
         <p>AI tools study <strong>huge numbers of examples</strong> to spot patterns. An image generator learns from millions of pictures; a chatbot learns from lots of text. It doesn't truly "know" facts — it predicts what fits the pattern, which is why it can be confidently wrong.</p>
         <div class="fact-grid">
           <div class="fact"><div class="f-ic"><i class="fas fa-triangle-exclamation"></i></div><div class="f-t">It can be wrong</div><div class="f-d">AI can sound sure but "hallucinate" — make things up. Always fact-check important answers.</div></div>
-          <div class="fact"><div class="f-ic"><i class="fas fa-scale-unbalanced"></i></div><div class="f-t">It can be biased</div><div class="f-d">If AI learns from unfair or one-sided data, its results can be unfair too.</div></div>
+          <div class="fact"><div class="f-ic"><i class="fas fa-scale-balanced"></i></div><div class="f-t">It can be biased</div><div class="f-d">If AI learns from unfair or one-sided data, its results can be unfair too.</div></div>
           <div class="fact"><div class="f-ic"><i class="fas fa-magnifying-glass"></i></div><div class="f-t">Spotting AI images</div><div class="f-d">Look for odd hands, jumbled text, or melted details — common giveaways of AI-made pictures.</div></div>
         </div>
         <div class="tip"><i class="fas fa-handshake-angle"></i><div><strong>Use AI responsibly:</strong> it's a helper, not a replacement for your own thinking. Check its work, understand it yourself, and be honest about using it.</div></div>
@@ -765,9 +765,9 @@ function renderLogic(){
 const AI_ITEMS=[
   {t:"A chatbot answers your typed question",ic:"fa-comment-dots",ai:true,why:"Uses AI to understand language and generate a reply."},
   {t:"A calculator shows 4 after 2 + 2",ic:"fa-calculator",ai:false,why:"Follows fixed maths rules — no learning, so not AI."},
-  {t:"Face unlock recognises you",ic:"fa-face-smile",ai:true,why:"AI trained to tell faces apart."},
+  {t:"Face unlock recognises you",ic:"fa-user-check",ai:true,why:"AI trained to tell faces apart."},
   {t:"A light turns on at the switch",ic:"fa-lightbulb",ai:false,why:"Just completes a circuit — no decision, not AI."},
-  {t:"A voice assistant understands speech",ic:"fa-microphone-lines",ai:true,why:"AI turns your spoken words into meaning."},
+  {t:"A voice assistant understands speech",ic:"fa-microphone",ai:true,why:"AI turns your spoken words into meaning."},
   {t:"A microwave's preset timer counts down",ic:"fa-clock",ai:false,why:"A simple timer — it only counts, so not AI."}
 ];
 function initAI(){
